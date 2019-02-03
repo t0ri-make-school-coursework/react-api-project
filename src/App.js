@@ -46,6 +46,7 @@ class App extends Component {
     }).then((json) => {
       // If the request was successful assign the data to component state
       if (json.cod === 200) {
+        console.log(json)
         this.setState({ weatherData: json })
       } else {
         console.log('na')
