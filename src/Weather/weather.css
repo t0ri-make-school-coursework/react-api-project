@@ -1,0 +1,29 @@
+#weather-div {
+    width: 10vw;
+    margin-left: calc(50% - 3.5vw);
+    margin-top: 5vh;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.weather-temperature {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.weather-atmosphere {
+    font-size: .75em;
+}
+
+.weather-description-description {
+    margin-top: -10px;
+
+    font-size: .75em;
+    color: grey;
+}
